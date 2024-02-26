@@ -58,7 +58,7 @@ export default {
         this.products = result.data.products
         }
     },
-    async mounted() {
+     mounted() {
 
        this.loadproducts()
 

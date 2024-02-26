@@ -5,13 +5,31 @@ import HeaderPage from './components/HeaderPage.vue';
 import AddProduct from './components/AddProduct.vue';
 import UpdateProduct from './components/UpdateProduct.vue';
 import DeleteProduct from './components/DeleteProduct.vue';
+import SearchBar from './components/SearchBar.vue'
+import SignUp from './components/SignUp.vue'
 import {createRouter, createWebHistory } from 'vue-router';
+import ArrayList from './components/ArrayList.vue';
 
 const routes=[
     {
         name:'Header',
         component:HeaderPage,
         path:'/headerpage'
+    },
+    {
+        name:'ArrayList',
+        component:ArrayList,
+        path:'/ArrayList'
+    },
+    {
+        name:'SignUp',
+        component:SignUp,
+        path:'/SignUp'
+    },
+    {
+        name:'SearchBar',
+        component:SearchBar,
+        path:'/SearchBar'
     },
     {
         name:'Home',
